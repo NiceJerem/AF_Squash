@@ -46,7 +46,7 @@ public class RechercherBilletTest {
    
     
 	@Test
-	public void testPetStoreSelenium() {
+	public void testRechercherBillet() {
         //  BtnCookieClick();
 		  // PageAccueil accueil= new PageAccueil(driver);
 		  System.out.println("AVANT CHOISIR ALLER");

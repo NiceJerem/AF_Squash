@@ -1,0 +1,6 @@
+[[ATTACHMENT--|C:\Users\Jerem\Documents\SQUASHTA\example\my.squash.ta.project\target\squashTA\surefire-reports\attachments\tests\tests\RechercherBilletTest.ta\INPUT-__temp_0.file\java\chromedriver.exe]]
+[[ATTACHMENT--|C:\Users\Jerem\Documents\SQUASHTA\example\my.squash.ta.project\target\squashTA\surefire-reports\attachments\tests\tests\RechercherBilletTest.ta\INPUT-__temp_0.file\java\PageAccueil.java]]
+[[ATTACHMENT--|C:\Users\Jerem\Documents\SQUASHTA\example\my.squash.ta.project\target\squashTA\surefire-reports\attachments\tests\tests\RechercherBilletTest.ta\INPUT-__temp_0.file\java\RechercherBilletTest.java]]
+[[ATTACHMENT--|C:\Users\Jerem\Documents\SQUASHTA\example\my.squash.ta.project\target\squashTA\surefire-reports\attachments\tests\tests\RechercherBilletTest.ta\INPUT-__temp_0.file\java\chromedriver.exe]]
+[[ATTACHMENT--|C:\Users\Jerem\Documents\SQUASHTA\example\my.squash.ta.project\target\squashTA\surefire-reports\attachments\tests\tests\RechercherBilletTest.ta\INPUT-__temp_0.file\java\PageAccueil.java]]
+[[ATTACHMENT--|C:\Users\Jerem\Documents\SQUASHTA\example\my.squash.ta.project\target\squashTA\surefire-reports\attachments\tests\tests\RechercherBilletTest.ta\INPUT-__temp_0.file\java\RechercherBilletTest.java]]
