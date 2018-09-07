@@ -70,27 +70,7 @@ public class RechercherBilletTest {
         Assert.assertThat(true, Is.is(true));
         System.out.println("Fin du traitement");
     }
-/*
-    @Test
-    public void testAcheterBillet() {
-        System.out.println("Debut Acheter Billet");
-        PageAccueil accueil= new PageAccueil(driver);
-        String dateDepart= "20180920";
-        String villeDepart="ORY";
-        String villeArrivee="NCE";
 
-        accueil.BtnCookieClick();
-        accueil.ChoisirAllerSimple();
-        accueil.SaisirDepart(villeDepart);
-        accueil.SaisirArrivee(villeArrivee);
-
-        accueil.ChoisirDateDepart(dateDepart );
-
-        accueil.rechercher();
-        Assert.assertThat(true, Is.is(true));
-        System.out.println("Fin du traitement Acheter Billet");
-    }
-  */  
     @FindBy(id="minibe__button--calendar_out")
     WebElement dateDepart;
     public void ChoisirDateDepart( String  dateD ) //
