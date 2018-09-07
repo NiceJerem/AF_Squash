@@ -23,7 +23,6 @@ import org.hamcrest.core.Is;
 public class AcheterBilletTest {
     private WebDriver driver;
     private String baseUrl;
-    private StringBuffer verificationErrors = new StringBuffer();
 
     @Before
     public void setUp() throws Exception {
@@ -31,7 +30,6 @@ public class AcheterBilletTest {
         String path = "C:\\Users\\Jerem\\Documents\\SQUASHTA\\example\\my.squash.ta.project\\src\\squashTA\\resources\\selenium\\java";
         System.setProperty("webdriver.chrome.driver", path+"\\chromedriver.exe");
         driver = new ChromeDriver();
-//        PageFactory.initElements(driver,this);
         driver.get("http://www.airfrance.fr/");
     }
 

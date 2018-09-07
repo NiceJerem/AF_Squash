@@ -70,7 +70,7 @@ public class RechercherBilletTest {
         Assert.assertThat(true, Is.is(true));
         System.out.println("Fin du traitement");
     }
-
+/*
     @Test
     public void testAcheterBillet() {
         System.out.println("Debut Acheter Billet");
@@ -90,7 +90,7 @@ public class RechercherBilletTest {
         Assert.assertThat(true, Is.is(true));
         System.out.println("Fin du traitement Acheter Billet");
     }
-    
+  */  
     @FindBy(id="minibe__button--calendar_out")
     WebElement dateDepart;
     public void ChoisirDateDepart( String  dateD ) //
