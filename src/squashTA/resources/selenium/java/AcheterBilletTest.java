@@ -11,7 +11,7 @@ import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.interactions.Actions;
 
-import org.openqa.selenium.support.PageFactory;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -31,20 +31,8 @@ public class AcheterBilletTest {
         String path = "C:\\Users\\Jerem\\Documents\\SQUASHTA\\example\\my.squash.ta.project\\src\\squashTA\\resources\\selenium\\java";
         System.setProperty("webdriver.chrome.driver", path+"\\chromedriver.exe");
         driver = new ChromeDriver();
-        PageFactory.initElements(driver,this);
+//        PageFactory.initElements(driver,this);
         driver.get("http://www.airfrance.fr/");
-    }
-
-    @FindBy(css="#cookiebarAgreeContent > button.cookiebar-agree-button-agree")
-    WebElement BtnCookie;
-    public void ClickOnBtnCookie(  )
-    {
-        WebDriverWait wait = new WebDriverWait(driver,5);
-        wait.until(ExpectedConditions.elementToBeClickable(BtnCookie));
-        Actions actions = new Actions(driver);
-        actions.moveToElement(BtnCookie);
-        actions.click();
-        actions.build().perform();
     }
 
 
