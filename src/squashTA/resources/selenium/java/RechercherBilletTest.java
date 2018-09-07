@@ -49,12 +49,12 @@ public class RechercherBilletTest {
     
 	@Test
 	public void testRechercherBillet() {
-         BtnCookieClick();
+        // BtnCookieClick();
 		  // PageAccueil accueil= new PageAccueil(driver);
 		  System.out.println("AVANT CHOISIR ALLER");
 		//  ChoisirAllerSimple();
 		  System.out.println("Apres choisir aller");
-		  Assert.assertThat(true, Is.is(true));
+		  //Assert.assertThat(true, Is.is(true));
 	}
 
 	@After
