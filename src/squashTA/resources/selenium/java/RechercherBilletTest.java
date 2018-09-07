@@ -79,7 +79,9 @@ public class RechercherBilletTest {
         LocalDateTime now = LocalDateTime.now();
         dateDepart.click();
         //calendar20188
+        System.out.println(" dateDepart.click();");
         dateOperation(dateD);
+        System.out.println("Fin du ChoisirDateDepart");
      
     }
 
