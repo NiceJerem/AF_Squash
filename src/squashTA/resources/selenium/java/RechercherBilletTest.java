@@ -62,20 +62,17 @@ public class RechercherBilletTest {
 
     @Test
     public void testRechercherBillet() {
-
         System.out.println("Debut");
         ClickOnBtnCookie();
-
-        // PageAccueil accueil= new PageAccueil(driver);
-
         ChoisirAllerSimple();
         String  dateDepart ="20180920";
         ChoisirDateDepart(dateDepart);
         Assert.assertThat(true, Is.is(true));
         System.out.println("Fin du traitement");
-
     }
 
+    
+    
     @FindBy(id="minibe__button--calendar_out")
     WebElement dateDepart;
     public void ChoisirDateDepart( String  dateD ) //
@@ -85,17 +82,7 @@ public class RechercherBilletTest {
         dateDepart.click();
         //calendar20188
         dateOperation(dateD);
-        //-----------
-        /*
-        Actions actions = new Actions(driver);
-        String idDate ="calendar--"+dateD ;
-        WebElement date =  calendrier.findElement(By.id( idDate));
-        actions.moveToElement(date);
-        actions.build().perform();
-        actions.click();
-        actions.build().perform();
-        */
-        //btnCloseCalendar.click();
+     
     }
 
     WebElement calendrier;
