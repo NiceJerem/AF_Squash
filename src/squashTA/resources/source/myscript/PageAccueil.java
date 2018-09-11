@@ -12,7 +12,7 @@ import javax.sound.midi.Soundbank;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-package AF;
+
 public class PageAccueil extends AF_Full {
 
     public PageAccueil(WebDriver driver )
