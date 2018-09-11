@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite time="20.742" failures="1" tests="1" name="tests" >
-  <testcase time="20.703" classname="tests" name="RechercherBilletTest.ta" >
+<testsuite time="16.217" failures="1" tests="1" name="tests" >
+  <testcase time="16.199" classname="tests" name="RechercherBilletTest.ta" >
     <failure message="Selenium test failed. Following are the name of the tests that failed:
 testRechercherBillet(RechercherBilletTest)
 " type="org.squashtest.ta.framework.exception.AssertionFailedException" >
