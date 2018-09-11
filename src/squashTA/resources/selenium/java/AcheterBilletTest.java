@@ -18,7 +18,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.LocalDateTime;
 import org.hamcrest.core.Is;
-
+//import AF;
 
 public class AcheterBilletTest {
     private WebDriver driver;
@@ -38,14 +38,14 @@ public class AcheterBilletTest {
     @Test
     public void testAcheterBillet() {
         System.out.println("Debut Acheter Billet");
-        /*
+        
         PageAccueil accueil= new PageAccueil(driver);
         String dateDepart= "20180920";
         String villeDepart="ORY";
         String villeArrivee="NCE";
-
+/*
         accueil.BtnCookieClick();
-        /*
+    
         accueil.ChoisirAllerSimple();
         accueil.SaisirDepart(villeDepart);
         accueil.SaisirArrivee(villeArrivee);
