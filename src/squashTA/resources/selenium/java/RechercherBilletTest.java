@@ -66,7 +66,7 @@ public class RechercherBilletTest {
 
     @Test
     public void testRechercherBillet() {
-    	MyClass n= new MyClass();
+    	MyClass n= new MyClass(driver);
         System.out.println("Debut");
         ClickOnBtnCookie();
         ChoisirAllerSimple();
