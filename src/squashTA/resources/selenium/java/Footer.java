@@ -3,11 +3,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class MyClass {
+public class Footer {
 	
 		WebDriver driver;
 
-	    public MyClass(  WebDriver driver )
+	    public Footer(  WebDriver driver )
 	    {
 	    	 System.out.println("Myclass");
 	        this.driver = driver;
