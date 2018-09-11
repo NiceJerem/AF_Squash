@@ -38,7 +38,7 @@ public class AcheterBilletTest {
     @Test
     public void testAcheterBillet() {
         System.out.println("Debut Acheter Billet");
-        
+        /*
         PageAccueil accueil= new PageAccueil(driver);
         
        String dateDepart= "20180920";
@@ -46,7 +46,7 @@ public class AcheterBilletTest {
         String villeArrivee="NCE";
 
         accueil.BtnCookieClick();
-        /*
+     
         accueil.ChoisirAllerSimple();
         accueil.SaisirDepart(villeDepart);
         accueil.SaisirArrivee(villeArrivee);
