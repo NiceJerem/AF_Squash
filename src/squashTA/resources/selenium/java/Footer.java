@@ -9,7 +9,7 @@ public class Footer {
 
 	    public Footer(  WebDriver driver )
 	    {
-	    	 System.out.println("Myclass");
+	    	 System.out.println("MyFooter");
 	        this.driver = driver;
 	        PageFactory.initElements(driver,this);
 	    }

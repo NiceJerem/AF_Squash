@@ -17,6 +17,7 @@ public class HomePage extends PageTemplate {
 
     public HomePage(WebDriver driver )
     {
+    	System.out.println("MyHomePage");
         super(driver);
     }
 
