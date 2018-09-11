@@ -66,7 +66,7 @@ public class RechercherBilletTest {
 
     @Test
     public void testRechercherBillet() {
-    	Footer n= new Footer(driver);
+    	PageTemplate n= new PageTemplate(driver);
         System.out.println("Debut");
         ClickOnBtnCookie();
         ChoisirAllerSimple();
