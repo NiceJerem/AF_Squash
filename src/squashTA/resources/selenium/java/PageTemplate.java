@@ -10,8 +10,9 @@ public class PageTemplate extends Footer{
 
     public PageTemplate(WebDriver driver )
     {
-    	 System.out.println("MyPageTemplate");
+    	
         super(driver);
+        System.out.println("MyPageTemplate");
     }
 
     @FindBy(tagName="header")
