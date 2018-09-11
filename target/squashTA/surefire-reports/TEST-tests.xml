@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite time="1.855" failures="0" tests="1" name="tests" >
-  <testcase time="1.855" classname="tests" name="RechercherBilletTest.ta" >
+<testsuite time="2.058" failures="0" tests="1" name="tests" >
+  <testcase time="2.042" classname="tests" name="RechercherBilletTest.ta" >
     <error message="Test Automation Engine error (non SUT) : method &apos;convert&apos; from engine component of class &apos;org.squashtest.ta.plugin.commons.converter.FileToJavaCodeBundle&apos; with argument &apos;org.squashtest.ta.framework.components.FileResource&apos;  has thrown an exception." type="org.squashtest.ta.backbone.exception.EngineRuntimeException" >
 Summary
 TEST :
