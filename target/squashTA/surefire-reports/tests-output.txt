@@ -1,0 +1,1 @@
+[[ATTACHMENT--|C:\Users\Jerem\Documents\SQUASHTA\example\my.squash.ta.project\target\squashTA\surefire-reports\attachments\tests\tests\RechercherBilletTest.ta\EXECUTION_REPORT-seleniumReport.html]]

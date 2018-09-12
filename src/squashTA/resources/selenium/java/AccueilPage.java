@@ -19,7 +19,7 @@ public class AccueilPage extends PageTemplate {
     {
         super(driver);
     }
-
+/*
 
     @FindBy(id="minibe__od--out")
     WebElement depart;
@@ -35,7 +35,7 @@ public class AccueilPage extends PageTemplate {
     {
         arrivee.sendKeys(aeroport+ Keys.ENTER);
     }
-    /*
+    
     @FindBy(id="minibe__roundTrip--label")
     WebElement ButtonRetour;
     public void ChoisirRetour(  )
@@ -145,7 +145,7 @@ public class AccueilPage extends PageTemplate {
         */
         //btnCloseCalendar.click();
    // }
-    //ICI!!
+    
 /*
     @FindBy(id="minibe__button--calendar_in")
     WebElement dateArrivee;
