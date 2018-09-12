@@ -10,7 +10,6 @@ public class PageTemplate extends Footer{
 
     public PageTemplate(WebDriver driver )
     {
-    	
         super(driver);
         System.out.println("MyPageTemplate");
     }
