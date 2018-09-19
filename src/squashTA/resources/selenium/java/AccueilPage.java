@@ -1,3 +1,4 @@
+package AF.source;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -13,13 +14,14 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+
 public class AccueilPage extends PageTemplate {
 
     public AccueilPage(WebDriver driver )
     {
         super(driver);
     }
-/*
+
 
     @FindBy(id="minibe__od--out")
     WebElement depart;
@@ -144,7 +146,7 @@ public class AccueilPage extends PageTemplate {
         actions.build().perform();
         */
         //btnCloseCalendar.click();
-   // }
+    }
     
 /*
     @FindBy(id="minibe__button--calendar_in")

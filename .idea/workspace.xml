@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40013e2f-a8d7-485e-82b0-bacf619e341b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squashTA/html-reports/squash-ta-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/squashTA/html-reports/squash-ta-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squashTA/surefire-reports/TEST-tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/squashTA/surefire-reports/TEST-tests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squashTA/surefire-reports/tests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/squashTA/surefire-reports/tests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squashTA/test-tree/testTree.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/squashTA/test-tree/testTree.json" afterDir="false" />
-    </list>
+    <list default="true" id="40013e2f-a8d7-485e-82b0-bacf619e341b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +13,7 @@
     <session id="-1694597720">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.opened" value="2" />
@@ -72,7 +66,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="100" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -142,7 +136,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536734821862" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536747161328" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -180,8 +174,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
