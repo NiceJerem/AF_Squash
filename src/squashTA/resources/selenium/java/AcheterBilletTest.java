@@ -61,7 +61,7 @@ public class AcheterBilletTest {
 
         accueil.ChoisirDateDepart(dateDepart );
 
-        //accueil.rechercher();
+        accueil.rechercher();
         
         Assert.assertThat(true, Is.is(true));
         System.out.println("Fin du traitement Acheter Billet");

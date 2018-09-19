@@ -147,7 +147,7 @@ public class AccueilPage extends PageTemplate {
         //btnCloseCalendar.click();
     }
     
-/*
+
     @FindBy(id="minibe__button--calendar_in")
     WebElement dateArrivee;
     public void ChoisirDateArrivee( String  dateA )
@@ -205,7 +205,7 @@ public class AccueilPage extends PageTemplate {
         btnRechercher.click();
         return new PageHorairesTarifs(driver);
     }
-
+/*
     public void nousContacterFooter()
     {
         super.ClickerNousContacter();
@@ -215,5 +215,6 @@ public class AccueilPage extends PageTemplate {
         super.clickerBtnEnregistrement();
     }
     */
+    
 
 }
