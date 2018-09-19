@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite time="3.573" failures="0" tests="1" name="tests" >
-  <testcase time="3.557" classname="tests" name="RechercherBilletTest.ta" >
+<testsuite time="3.007" failures="0" tests="1" name="tests" >
+  <testcase time="2.991" classname="tests" name="test.ta" >
     <error message="Test Automation Engine error (non SUT) : method &apos;convert&apos; from engine component of class &apos;org.squashtest.ta.plugin.commons.converter.FileToJavaCodeBundle&apos; with argument &apos;org.squashtest.ta.framework.components.FileResource&apos;  has thrown an exception." type="org.squashtest.ta.backbone.exception.EngineRuntimeException" >
 Summary
 TEST :
-[ERROR] # EXECUTE_SELENIUM2 selenium WITH MAIN CLASS RechercherBilletTest
+[ERROR] # EXECUTE_SELENIUM2 selenium WITH MAIN CLASS AcheterBilletTest
 	[SUCCESS] 	LOAD selenium AS __temp_0.file
 	[ERROR] 	CONVERT __temp_0.file TO script.java(compile) AS __temp_1.compiled
 org.squashtest.ta.backbone.exception.EngineRuntimeException: Test Automation Engine error (non SUT) : method &apos;convert&apos; from engine component of class &apos;org.squashtest.ta.plugin.commons.converter.FileToJavaCodeBundle&apos; with argument &apos;org.squashtest.ta.framework.components.FileResource&apos;  has thrown an exception.
@@ -59,8 +59,8 @@ Caused by: org.squashtest.ta.framework.exception.BadDataException: Java code com
 	at org.squashtest.ta.backbone.tools.ReflectionUtils.invoke(ReflectionUtils.java:252)
 	... 40 more
 
-	[NOT_RUN] 	CONVERT __temp_1.compiled TO script.java.selenium2(script) USING $(RechercherBilletTest) AS __temp_2.selenium
-		[NOT_RUN] 		$(RechercherBilletTest) --> {{__tempI0}}
+	[NOT_RUN] 	CONVERT __temp_1.compiled TO script.java.selenium2(script) USING $(AcheterBilletTest) AS __temp_2.selenium
+		[NOT_RUN] 		$(AcheterBilletTest) --> {{__tempI0}}
 		[NOT_RUN] 		CONVERT __temp_1.compiled TO script.java.selenium2(script) USING {{__tempI0}} AS __temp_2.selenium
 	[NOT_RUN] 	EXECUTE execute WITH __temp_2.selenium AS __temp_3.result
 	[NOT_RUN] 	ASSERT __temp_3.result IS success

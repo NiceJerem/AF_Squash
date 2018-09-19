@@ -1,4 +1,3 @@
-package AF.source;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -13,7 +12,6 @@ import javax.sound.midi.Soundbank;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
 
 public class AccueilPage extends PageTemplate {
 
@@ -62,7 +60,8 @@ public class AccueilPage extends PageTemplate {
     WebElement BtnCookie;
     public void BtnCookieClick(  )
     {
-        BtnCookie.click();
+    	 System.out.println("Rentré dans cookie!");
+         BtnCookie.click();
     }
 
     //

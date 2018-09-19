@@ -1,4 +1,3 @@
-package AF.source;
 import org.junit.*;
 import static org.junit.Assert.*;
 import org.openqa.selenium.*;
@@ -47,10 +46,10 @@ public class AcheterBilletTest {
     @Test
     public void testAcheterBillet() {
         System.out.println("Debut Acheter Billet");
-  /*    
+        
         AccueilPage accueil= new AccueilPage(driver);
-      
-       String dateDepart= "20180928";
+       
+       String dateDepart= "20180927";
         String villeDepart="ORY";
         String villeArrivee="NCE";
 
@@ -59,18 +58,18 @@ public class AcheterBilletTest {
         accueil.ChoisirAllerSimple();
         accueil.SaisirDepart(villeDepart);
         accueil.SaisirArrivee(villeArrivee);
-        System.out.println("La date a selectionnée est le :"+dateDepart);
+
         accueil.ChoisirDateDepart(dateDepart );
-*/
-     //   accueil.rechercher();
-       
+
+        //accueil.rechercher();
+        
         Assert.assertThat(true, Is.is(true));
         System.out.println("Fin du traitement Acheter Billet");
     }
     
     @After
     public void tearDown()  {
-    // driver.quit();
+     //  driver.quit();
 
     }
 
