@@ -49,27 +49,42 @@ public class AcheterBilletTest {
         
         AccueilPage accueil= new AccueilPage(driver);
        
-       String dateDepart= "20180927";
+        String dateDepart= "20180928";
         String villeDepart="ORY";
         String villeArrivee="NCE";
 
         accueil.BtnCookieClick();
-        
         accueil.ChoisirAllerSimple();
         accueil.SaisirDepart(villeDepart);
         accueil.SaisirArrivee(villeArrivee);
-
         accueil.ChoisirDateDepart(dateDepart );
 
-        accueil.rechercher();
+        PageHorairesTarifs tarifsPage = accueil.rechercher();
+        tarifsPage.ChoisirMeilleurTarifAller(1);
+        PageDetailsVoyage detailsPage = tarifsPage.continuer();
+        PageDonneesPersonnelles donneesPage = detailsPage.continuer();
+        donneesPage.fermerPopup();
+        //driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        donneesPage.choisirMonsieur();
+        //driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+        donneesPage.saisirNom("Tom");
+        donneesPage.saisirPrenom("Jeerrre");
+        donneesPage.saisirTelephone("0606060606");
+       // donneesPage.choisirHublot();
+        donneesPage.saisirEmail("mymail@mail.com");
+        donneesPage.saisirEmailConfirm("mymail@mail.com");
         
+        //donneesPage.cocherPasDassurance();
+        //donneesPage.cocherCGU();
+        //#idCheckboxCGU
+        //#popin__info--close
         Assert.assertThat(true, Is.is(true));
         System.out.println("Fin du traitement Acheter Billet");
     }
     
     @After
     public void tearDown()  {
-       driver.quit();
+      // driver.quit();
 
     }
 

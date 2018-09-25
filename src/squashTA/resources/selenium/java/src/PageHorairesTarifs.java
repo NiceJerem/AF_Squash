@@ -55,7 +55,7 @@ public class PageHorairesTarifs extends Footer {
         WebElement meilleurTarif = listVolMeilleurTarif.get(indexItem-1);
         meilleurTarif.click();
     }
-/*
+
     public PageDetailsVoyage continuer()
     {
 /*
@@ -71,9 +71,8 @@ public class PageHorairesTarifs extends Footer {
         action.build().perform();
         //OLD CODE
             */
- /*
+
     	btnContinuer.click();
         return new PageDetailsVoyage(driver);
     }
-    */
 }

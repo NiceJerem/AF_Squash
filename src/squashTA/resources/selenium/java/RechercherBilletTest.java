@@ -70,7 +70,7 @@ public class RechercherBilletTest {
         System.out.println("Debut");
         ClickOnBtnCookie();
         ChoisirAllerSimple();
-        String  dateDepart ="20180920";
+        String  dateDepart ="20180928";
         ChoisirDateDepart(dateDepart);
         Assert.assertThat(true, Is.is(true));
         System.out.println("Fin du traitement");
